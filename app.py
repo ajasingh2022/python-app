@@ -17,4 +17,5 @@ def hello():
     })
 
 if __name__ == '__main__':
+    # For development only. In production, use a WSGI server like gunicorn
     app.run(debug=True, host='0.0.0.0', port=5000)
